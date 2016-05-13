@@ -7,7 +7,7 @@ python:
     - 3.5
 
 install:
-    - pip install -U uvloop
+    - pip install --index-url=https://pypi.sprymix.net/simple/ -U uvloop
 
 script:
     - true
